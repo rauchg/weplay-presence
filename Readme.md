@@ -6,7 +6,7 @@ each weplay server and broadcasts it.
 
 ## How to install
 
-```js
+```bash
 $ npm install
 ```
 
@@ -17,7 +17,7 @@ And run it with the following ENV vars:
   number of connected peers. We use an interval to avoid client slowdowns
   when too many clients connect at once (`5000`)
 
-```
+```bash
 $ node index
 ```
 
