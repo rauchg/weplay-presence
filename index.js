@@ -1,6 +1,6 @@
 
-var redis = require('./redis');
-var io = require('socket.io-emitter')(redis());
+var redis = require('./redis')();
+var io = require('socket.io-emitter')(redis);
 var interval = process.env.WEPLAY_INTERVAL || 5000;
 
 setInterval(function(){
