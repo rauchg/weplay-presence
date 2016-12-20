@@ -8,7 +8,7 @@ setInterval(() => {
         if (!counts) return;
         let count = 0;
         for (const i in counts) count += Number(counts[i]);
-        logger.info('connections', count);
+        logger.debug('connections', count);
         redis.set('weplay:connections-total', count);
         io.emit('connections', count);
     });
