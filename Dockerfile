@@ -10,6 +10,7 @@ COPY . .
 RUN npm install
 
 # Setup environment
+ENV NODE_ENV production
 ENV WEPLAY_REDIS_URI "redis:6379"
 
 
