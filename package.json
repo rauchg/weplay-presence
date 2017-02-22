@@ -3,11 +3,14 @@
   "version": "0.0.1",
   "description": "",
   "dependencies": {
-    "debug": "2.2.0",
-    "redis": "2.6.2",
+    "weplay-common": "iromu/weplay-common",
     "socket.io-emitter": "1.0.0"
   },
   "scripts": {
     "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=7.0.0"
   }
 }
+
